@@ -1,3 +1,1 @@
-# gitdemo
-
-I Am Shashank Chauhan.
+# C programming
