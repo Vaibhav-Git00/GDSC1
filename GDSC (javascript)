@@ -1,0 +1,17 @@
+<script>
+    // open
+    let val2=document.querySelector(".login");
+    let val=document.querySelector(".signin");
+    val2.addEventListener("click",(e)=>{
+        e.preventDefault();
+        val.style.display="block";
+    })
+
+    // close
+
+    let closeLogin = document.querySelector(".markX");
+    closeLogin.addEventListener("click", (e) => {
+        val.style.display = "none";
+    })
+
+</script>
